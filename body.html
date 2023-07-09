@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <nav class="navbar" style="background-color: #48484a;">
+        <div class="container-fluid">
+            <div class="navbar-items">
+                <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="LOGO"
+                    height="40" width="93.33" class="image1">
+                <form class="form">
+                    <img src="	https://openweathermap.org/themes/openweathermap/assets/img/owm_icons/icon_search.svg"
+                        class="image2" />
+                    <input type="text" name="search" placeholder="Weather in your city" class="input1"
+                        style="background-color: #48484a;">
+                </form>
+                <a class="nav-link">Guide</a>
+                <a class="nav-link">API</a>
+                <a class="nav-link">Dashboard</a>
+                <a class="nav-link">Marketplace</a>
+                <a class="nav-link">Pricing</a>
+                <a class="nav-link">Maps</a>
+                <a class="nav-link">Our Initiatives</a>
+                <a class="nav-link">Partners</a>
+                <a class="nav-link">Blog</a>
+                <a class="nav-link"
+                    style="background-color: grey; border-radius: 20px; padding: 10px 20px;">ForBusiness</a>
+                <a class="nav-link">Sign up</a>
+                <a class="nav-link">Support</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-4" style="color: #eb6e4b; font-size: 45px">OpenWeather</h1>
+            <p class="lead" style="font-family: sans-serif; color: #48484a; font-weight: bolder; font-size: 25px;">
+                Weather forecasts, nowcasts and history in a fast and elegant way</p>
+        </div>
+    </div>
+
+    <div class="city-search">
+        <div class="container2">
+            <form class="form2" id="f2">
+                <input type="text" id="input2" placeholder="&nbsp Search city" style="font-family: sans-serif;">
+                <button class="button-1" id="b2" type="submit" value="click me">Search</button>
+            </form>
+            <span class="material-symbols-outlined">
+                near_me
+            </span>
+            <div class="part2">
+                <a class="par2-1" style="background-color: hsl(240, 1%, 67%);">Different Weather?</a>
+                <a class="par2-2" style="background-color: hsl(240, 1%, 67%); position: relative; left: 10px;">Metric:
+                    °C, m/s</a>
+                <a class="par2-3" style="background-color: hsl(240, 1%, 67%); position: relative; left: 20px;">Imperial:
+                    °F, mph</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" style="width: 30rem;">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
